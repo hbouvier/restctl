@@ -1,0 +1,35 @@
+{
+  "author": "Henri Bouvier",
+  "name": "restctl",
+  "description": "A RESTful client",
+  "version": "0.0.1",
+  "keywords": [
+    "REST",
+    "HTTP",
+    "client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbouvier/restctl.git"
+  },
+  "dependencies": {
+    "node-options": "0.0.3",
+    "winston": "0.7.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0 < 0.11.0"
+  },
+  "main": "./lib/restctl.js",
+  "bin": {
+    "restctl": "./bin/restctl"
+  },
+  "scripts": {
+    "start": "bin/restctl"
+  },
+  "configuration": {
+    "level": "error",
+    "rest_url": "http://127.0.0.1:8080",
+    "context" : "",
+    "content-type" : "text/plain; charset=utf8"
+  }
+}
