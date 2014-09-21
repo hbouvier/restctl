@@ -24,7 +24,8 @@
     "restctl": "./bin/restctl"
   },
   "scripts": {
-    "start": "bin/restctl"
+    "start": "bin/restctl",
+    "test": "tests/test.sh"
   },
   "configuration": {
     "level": "error",
