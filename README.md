@@ -43,3 +43,7 @@ A RESTful client to send HTTP Rest commands (e.g. GET/POST/PUT/DELETE)
 ### DELETE
 
     restctl delete /store/api/v1/key/version
+
+## Run the tests
+
+    npm test
